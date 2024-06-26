@@ -6,6 +6,7 @@
 - [Key Features of Flexbox](#key-features-of-flexbox)
 - [Why Flexbox is Better Than Older Methods](#why-flexbox-is-better-than-older-methods)
 - [Web based game to understand the basics of flex](#web-based-game-to-understand-the-basics-of-flex)
+- [Links to Flex documentation](#links-to-flex-documentation)
 </details>
 
 ---
@@ -64,5 +65,9 @@ Reordering elements in older methods often required changing the HTML structure.
 
 - [Flexbox Froggy](https://flexboxfroggy.com/#sv)
 - [Flexbox Defence](http://www.flexboxdefense.com/)
+
+### Links to Flex documentation
+
+- [A guide to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 [Back to top](#introduction-to-flex)
