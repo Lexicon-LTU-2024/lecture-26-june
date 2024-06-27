@@ -3,11 +3,18 @@
 
   /* #### align-items aligns along the cross-axes ( y-axis) #### */
   /* align-items: stretch; */
-  /* align-items: flex-start; */
-  align-items: center;
+  align-items: flex-start;
+  /* align-items: center; */
   /* align-items: flex-end; */
 
   gap: 1rem;
+
+  /* flex-direction: row; */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+
+  flex-wrap: wrap;
 
   /* #### justify-content aligns along the main-axes ( x-axis) #### */
   /* justify-content: flex-start; */
@@ -28,24 +35,25 @@
 /* #### Two ( or more.. ) classes seperated with a whitespace, we target an element with a specific class inside another element with a specific class #### */
 .box .square {
   /* 1rem = 16px */
+  background-color: aqua;
   font-size: 2.5rem;
   padding: 1rem;
 }
 
 .box .square.square1 {
   background-color: #fecc02;
-  flex: 1;
+  /* flex: 1; */
 }
 
 .box .square.square2 {
   background-color: red;
-  flex: 3;
+  /* flex: 3; */
 }
 
 /* #### Below is an example of nesting CSS. Only possible with SASS/LESS ( other preprocessors ) before #### */
 .box {
   .square.square3 {
     background-color: green;
-    flex: 2;
+    /* flex: 2; */
   }
 }
