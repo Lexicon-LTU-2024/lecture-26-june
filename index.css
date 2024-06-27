@@ -1,5 +1,5 @@
 .box {
-  display: flex; /* Will convert this element to a flex container. */
+  display: flex; /* #### Will convert this element to a flex container. #### */
 
   /* #### align-items aligns along the cross-axes ( y-axis) #### */
   /* align-items: stretch; */
@@ -22,10 +22,10 @@
   padding: 1rem;
 }
 
-/* Two classes ( or more ..) with no spaces in between. Then we target an element containing both ( or all.. ) classes */
+/* #### Two classes ( or more ..) with no spaces in between. Then we target an element containing both ( or all.. ) classes #### */
 /* .box.square {} */
 
-/* Two ( or more.. ) classes seperated with a whitespace, we target an element with a specific class inside another element with a specific class */
+/* #### Two ( or more.. ) classes seperated with a whitespace, we target an element with a specific class inside another element with a specific class #### */
 .box .square {
   /* 1rem = 16px */
   font-size: 2.5rem;
@@ -42,7 +42,7 @@
   flex: 3;
 }
 
-/* Below is an example of nesting CSS. Only possible with SASS/LESS ( other preprocessors ) before */
+/* #### Below is an example of nesting CSS. Only possible with SASS/LESS ( other preprocessors ) before #### */
 .box {
   .square.square3 {
     background-color: green;
